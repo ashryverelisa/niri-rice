@@ -91,6 +91,10 @@ echo -e "\n Starting installation...\n"
 
 # PACKAGE DEFINITIONS 
 System_Packages=(
+  # terminal
+  kitty
+  
+  # utilities
   stow
 )
 
@@ -103,7 +107,8 @@ Rice_Packages=(
 )
   
 Aur_Packages=(
-
+  # ide
+  rider
 )  
   
 Aur_App_Packages=(

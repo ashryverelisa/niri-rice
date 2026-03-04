@@ -7,3 +7,17 @@
         match namespace="^noctalia-wallpaper*"
         place-within-backdrop true
     }
+
+    window-rule {
+        match app-id="kitty"
+        opacity 0.9
+        default-column-width { fixed 1600; }
+        default-window-height { fixed 1000; }
+    }
+
+    window-rule {
+        match app-id="^floating$"
+        open-floating true
+        default-column-width { fixed 720; }
+        default-window-height { fixed 900; }
+    }
