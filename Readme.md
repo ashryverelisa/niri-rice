@@ -66,3 +66,18 @@ bash ~/niri-rice/scripts/apply_configs.sh
 ```
 
 This uses [GNU Stow](https://www.gnu.org/software/stow/) to symlink everything from `src/` into your home directory.
+
+
+# TODO
+- [ ] Custom Scripts
+- [ ] Niri Animations
+- [ ] Niri Rules
+- [ ] Niri Layouts
+- [ ] neovim
+- [ ] Waybar?
+- [ ] SDDM Theme
+- [ ] Wallpapers
+- [ ] Swaync?
+- [ ] swww?
+- [ ] Wlogout?
+- [ ] File Explorer
