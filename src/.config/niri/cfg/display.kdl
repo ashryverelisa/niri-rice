@@ -3,6 +3,12 @@
 // You will have to remove "/-" and edit it before it takes effect.
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
 
+workspace "1"
+workspace "2"
+workspace "3"
+workspace "4"
+workspace "5"
+
 output "DP-1" {
     mode "5120x1440@239.761" // Set resolution and refresh rate
     scale 1 // No scaling (use 2 for HiDPI)
