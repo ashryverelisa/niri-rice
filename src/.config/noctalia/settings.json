@@ -22,7 +22,7 @@
         "showCategories": true,
         "showIconBackground": false,
         "sortByMostUsed": true,
-        "terminalCommand": "alacritty -e",
+        "terminalCommand": "kitty -e",
         "useApp2Unit": false,
         "viewMode": "list"
     },
@@ -516,7 +516,7 @@
         "autoUpdate": false
     },
     "sessionMenu": {
-        "countdownDuration": 10000,
+        "countdownDuration": 2000,
         "enableCountdown": true,
         "largeButtonsLayout": "single-row",
         "largeButtonsStyle": true,
