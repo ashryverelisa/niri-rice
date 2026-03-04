@@ -20,6 +20,15 @@ install_dotfiles() {
     echo "Dotfiles stowed successfully!"
 }
 
+make_scripts_executable() {
+    echo "Setting executable permissions for .sh scripts"
+
+    find -L "$HOME/.config/niri/scripts" -type f -name "*.sh" -exec chmod +x {} \; 2>/dev/null || true
+    find -L "$HOME/.config/scripts" -type f -name "*.sh" -exec chmod +x {} \; 2>/dev/null || true
+    
+    echo "Done."
+}
+
 set_zsh_default() {
     local zsh_path
     zsh_path="$(command -v zsh)"
@@ -34,3 +43,4 @@ set_zsh_default() {
 }
 
 install_dotfiles
+make_scripts_executable

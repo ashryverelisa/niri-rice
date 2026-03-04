@@ -9,6 +9,8 @@ workspace "3"
 workspace "4"
 workspace "5"
 
+spawn-sh-at-startup "$HOME/.config/niri/scripts/autostart.sh"
+
 output "DP-1" {
     mode "5120x1440@239.761" // Set resolution and refresh rate
     scale 1 // No scaling (use 2 for HiDPI)
