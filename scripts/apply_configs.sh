@@ -44,3 +44,4 @@ set_zsh_default() {
 
 install_dotfiles
 make_scripts_executable
+set_zsh_default
