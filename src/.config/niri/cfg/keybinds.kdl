@@ -2,6 +2,9 @@ binds {
     // Cheat sheet
     Mod+K                               { show-hotkey-overlay; }
 
+    // Toggle for PiP Feature for Odyssey G9 49 Inch Monitor
+    Mod+A                                hotkey-overlay-title="Toggle Picture-in-Picture Mode for Odyssey G9" { spawn "~/.config/scripts/pip-toggle.sh"; }
+    
     // Terminal
     Mod+T                               hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
     Mod+SHift+T                         hotkey-overlay-title="Open Terminal: Kitty floating" { spawn "kitty" "--class" "floating"; }
