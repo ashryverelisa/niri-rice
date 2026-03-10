@@ -4,14 +4,16 @@
 
 ## Overview
 
-A collection of configuration files and automated scripts to bootstrap and rice an Arch Linux desktop running the [Niri](https://github.com/YaLTeR/niri) scrollable tiling Wayland compositor.
+A collection of configuration files and automated scripts to bootstrap and rice an Arch Linux desktop running the [Niri](https://github.com/YaLTeR/niri) scrollable tiling Wayland compositor, themed with [Catppuccin Mocha](https://github.com/catppuccin/catppuccin).
 
 ## Components
 
 | Component | Description |
 |-----------|-------------|
 | **Niri** | Scrollable tiling Wayland compositor — modular config split into keybinds, display, layout, rules, input, animations, and autostart |
-| **Kitty** | GPU-accelerated terminal with JetBrainsMono Nerd Font, transparency, and cursor trail |
+| **Noctalia** | Shell / bar / launcher / lock screen / wallpaper manager for Niri (Catppuccin Mocha palette) |
+| **Kitty** | GPU-accelerated terminal with JetBrainsMono Nerd Font, Catppuccin Mocha theme, transparency, and cursor trail |
+| **Neovim** | Editor configured with [lazy.nvim](https://github.com/folke/lazy.nvim) — Catppuccin theme, Treesitter, LSP, Telescope, Neo-tree, Lualine, and more |
 | **Fastfetch** | System info fetch with custom layout and Kitty image protocol support |
 | **Zsh** | Shell config (CachyOS base) with Powerlevel10k prompt |
 | **IdeaVim** | Vim keybindings for JetBrains IDEs |
@@ -21,19 +23,26 @@ A collection of configuration files and automated scripts to bootstrap and rice 
 ```
 src/
 ├── .config/
-│   ├── niri/           # Niri compositor config (KDL)
-│   │   ├── config.kdl  # Main config (includes cfg/*.kdl)
-│   │   ├── cfg/        # Modular config fragments
-│   │   └── scripts/    # Monitor setup & helpers
-│   ├── kitty/          # Kitty terminal config
-│   ├── fastfetch/      # Fastfetch config & assets
-│   └── scripts/        # General utility scripts
+│   ├── niri/              # Niri compositor config (KDL)
+│   │   ├── config.kdl     # Main config (includes cfg/*.kdl)
+│   │   ├── cfg/           # Modular config fragments
+│   │   └── scripts/       # Monitor setup & helpers
+│   ├── noctalia/          # Noctalia shell settings, colors & plugins
+│   ├── kitty/             # Kitty terminal config (Catppuccin Mocha)
+│   ├── nvim/              # Neovim config (lazy.nvim)
+│   │   ├── init.lua
+│   │   └── lua/
+│   │       ├── vim-options.lua
+│   │       ├── plugins.lua
+│   │       └── plugins/   # Plugin specs (catppuccin, lsp, telescope, …)
+│   ├── fastfetch/         # Fastfetch config & assets
+│   └── scripts/           # General utility scripts (PiP toggle, …)
 ├── .zshrc
 ├── .p10k.zsh
 └── .ideavimrc
 scripts/
-├── install.sh          # Interactive package installer
-└── apply_configs.sh    # Symlink dotfiles via GNU Stow
+├── install.sh             # Interactive package installer
+└── apply_configs.sh       # Symlink dotfiles via GNU Stow
 ```
 
 ## Installation
@@ -57,7 +66,11 @@ The interactive installer lets you choose which package groups to install:
 - **System** — core tools (kitty, stow, …)
 - **Applications** — daily-use apps
 - **Rice** — theming & cosmetics
-- **AUR** — IDE, gaming, and extra AUR packages
+- **AUR** — IDEs, gaming, and extra AUR packages
+  - *Important* — Rider, IntelliJ IDEA Ultimate, Vesktop
+  - *Rice* — theming extras
+  - *Applications* — additional apps
+  - *Gaming* — Path of Building, Awakened PoE Trade
 
 ### 3. Apply configs
 
@@ -65,17 +78,14 @@ The interactive installer lets you choose which package groups to install:
 bash ~/niri-rice/scripts/apply_configs.sh
 ```
 
-This uses [GNU Stow](https://www.gnu.org/software/stow/) to symlink everything from `src/` into your home directory.
+This uses [GNU Stow](https://www.gnu.org/software/stow/) to symlink everything from `src/` into your home directory, sets scripts as executable, and configures Zsh as the default shell.
 
+## TODO
 
-# TODO
-- [ ] Custom Scripts
-- [ ] Niri Animations
-- [ ] Niri Rules
-- [ ] Niri Layouts
-- [ ] neovim
 - [ ] SDDM Theme
 - [ ] Wallpapers
-- [ ] swww?
-- [ ] Wlogout?
+- [ ] swww
+- [ ] Wlogout
 - [ ] File Explorer
+- [ ] Waybar
+- [ ] Scripts for Waybar
