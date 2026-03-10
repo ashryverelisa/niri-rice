@@ -109,6 +109,10 @@ Rice_Packages=(
 Aur_Packages=(
   # ide
   rider
+  intellij-idea-ultimate-edition
+  
+  # chatting
+  vesktop
 )  
   
 Aur_App_Packages=(
@@ -120,6 +124,8 @@ Aur_Rice_Packages=(
 )
   
 Aur_Gaming_Packages=(
+  path-of-building-community-git
+  awakened-poe-trade-git
 )
 
 # Installation

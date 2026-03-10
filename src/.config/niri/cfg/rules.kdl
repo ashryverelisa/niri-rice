@@ -1,6 +1,9 @@
     window-rule {
         geometry-corner-radius 20
         clip-to-geometry true
+        open-maximized false
+        open-maximized-to-edges false
+        open-fullscreen false
     }
 
     layer-rule {

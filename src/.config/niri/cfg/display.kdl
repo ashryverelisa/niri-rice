@@ -1,17 +1,17 @@
-// ────────────── Output Configuration ──────────────
-// You can run `niri msg outputs` to get the correct name for your displays.
-// You will have to remove "/-" and edit it before it takes effect.
-// https://github.com/YaLTeR/niri/wiki/Configuration:-Outputs
-
 workspace "1"
 workspace "2"
 workspace "3"
 workspace "4"
 workspace "5"
 
-spawn-sh-at-startup "$HOME/.config/niri/scripts/autostart.sh"
+spawn-sh-at-startup "$HOME/.config/niri/scripts/monitor-setup.sh"
 
 output "DP-1" {
-    mode "5120x1440@239.761" // Set resolution and refresh rate
-    scale 1 // No scaling (use 2 for HiDPI)
+    mode "5120x1440@239.761" 
+    scale 1
+}
+
+output "eDP-1" {
+    mode "2560x1440@165.00"
+    scale 1
 }
