@@ -91,19 +91,39 @@ echo -e "\n Starting installation...\n"
 
 # PACKAGE DEFINITIONS 
 System_Packages=(
-  # terminal
-  kitty
-  
-  # utilities
-  stow
+
 )
 
 Application_Packages=(
-
+  # container 
+  docker
+  docker-compose
+  
+  # creative
+  gimp
+  
+  # media players
+  vlc
+  mpv
+  
+  # office
+  libreoffice-still
+  
+  # sdk and tools
+  dotnet-sdk
 )
   
 Rice_Packages=(
-
+  # terminal
+  kitty
+  
+  # shell utilities
+  btop
+  cava
+  htop
+  lolcat
+  neovim
+  fastfetch
 )
   
 Aur_Packages=(
