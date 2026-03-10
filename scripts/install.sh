@@ -111,6 +111,9 @@ Application_Packages=(
   
   # sdk and tools
   dotnet-sdk
+  
+  # markdown
+  obsidian
 )
   
 Rice_Packages=(
