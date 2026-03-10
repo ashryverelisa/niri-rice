@@ -130,16 +130,16 @@ Rice_Packages=(
 )
   
 Aur_Packages=(
-  # ide
-  rider
-  intellij-idea-ultimate-edition
-  
-  # chatting
-  vesktop
+
 )  
   
 Aur_App_Packages=(
-
+    # communication
+    vesktop
+    
+      # ide
+      rider
+      intellij-idea-ultimate-edition
 )
 
 Aur_Rice_Packages=(
