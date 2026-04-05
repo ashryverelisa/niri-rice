@@ -117,6 +117,9 @@ Application_Packages=(
   
   # engine
   godot-mono
+  
+  # recording
+  obs-studio
 )
   
 Rice_Packages=(
@@ -130,6 +133,8 @@ Rice_Packages=(
   lolcat
   neovim
   fastfetch
+  cowsay
+  cmatrix
 )
   
 Aur_Packages=(
@@ -137,12 +142,12 @@ Aur_Packages=(
 )  
   
 Aur_App_Packages=(
-    # communication
-    vesktop
+  # communication
+  vesktop
     
-      # ide
-      rider
-      intellij-idea-ultimate-edition
+  # ide
+  rider
+  intellij-idea-ultimate-edition
 )
 
 Aur_Rice_Packages=(
