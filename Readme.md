@@ -82,10 +82,6 @@ This uses [GNU Stow](https://www.gnu.org/software/stow/) to symlink everything f
 
 ## TODO
 
-- [ ] SDDM Theme
 - [ ] Wallpapers
 - [ ] swww
-- [ ] Wlogout
-- [ ] File Explorer
-- [ ] Waybar
-- [ ] Scripts for Waybar
+- [ ] Change to Waybar and Wlogout?
