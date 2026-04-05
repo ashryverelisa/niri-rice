@@ -114,6 +114,9 @@ Application_Packages=(
   
   # markdown
   obsidian
+  
+  # engine
+  godot-mono
 )
   
 Rice_Packages=(
