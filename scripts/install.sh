@@ -143,7 +143,7 @@ Aur_App_Packages=(
 )
 
 Aur_Rice_Packages=(
-
+  sddm-silent-theme
 )
   
 Aur_Gaming_Packages=(
