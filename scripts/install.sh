@@ -150,6 +150,7 @@ Aur_App_Packages=(
   # ide
   rider
   intellij-idea-ultimate-edition
+  webstorm
 )
 
 Aur_Rice_Packages=(
