@@ -111,6 +111,8 @@ Application_Packages=(
   
   # sdk and tools
   dotnet-sdk
+  nodejs
+  npm
   
   # markdown
   obsidian
