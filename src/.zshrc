@@ -96,3 +96,6 @@ zstyle ':completion:*' menu no
 alias reload="source ~/.zshrc"
 alias ls="eza -la"
 alias c="clear"
+
+# Added by get-aspire-cli.sh
+export PATH="$HOME/.aspire/bin:$PATH"
