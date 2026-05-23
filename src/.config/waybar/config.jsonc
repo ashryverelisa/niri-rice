@@ -2,10 +2,13 @@
   "layer": "top",
   "position": "top",
   "height": 23,
-  "spacing": 4,
+  "spacing": 3,
   "reload_style_on_change": true,
   "modules-left": [
     "clock",
+    "custom/cpu",
+    "custom/temperature",
+    "custom/memory",
     "niri/window"
   ],
   "modules-center": [

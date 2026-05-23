@@ -163,7 +163,11 @@ Aur_App_Packages=(
 )
 
 Aur_Rice_Packages=(
+  # theme
   sddm-silent-theme
+  
+  # font
+  ttf-tabler-icons
 )
   
 Aur_Gaming_Packages=(
