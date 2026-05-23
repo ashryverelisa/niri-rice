@@ -1,0 +1,23 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Adwaita Sans", serif;
+    font-size: 12px;
+    font-weight: 500;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#clock {
+    background: transparent;
+}
+
+#window image {
+    margin-right: 6px;
+}
