@@ -122,9 +122,6 @@ Application_Packages=(
   
   # recording
   obs-studio
-  
-  # music
-  spotify-launcher
 )
   
 Rice_Packages=(
@@ -140,9 +137,6 @@ Rice_Packages=(
   fastfetch
   cowsay
   cmatrix
-  
-  # bar
-  waybar
 )
   
 Aur_Packages=(
