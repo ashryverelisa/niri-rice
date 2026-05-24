@@ -147,16 +147,10 @@ Rice_Packages=(
   # bar
   waybar
   
-  # sway
-  swayosd
-  
   # application launchers
   rofi
   rofi-calc
   rofi-emoji
-  
-  # theme
-  gtk4-layer-shell
 )
   
 Aur_Packages=(
