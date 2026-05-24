@@ -141,9 +141,6 @@ Rice_Packages=(
   cowsay
   cmatrix
   
-  # fonts
-  ttf-jetbrains-mono-nerd
-  
   # bar
   waybar
 )
