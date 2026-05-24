@@ -146,6 +146,11 @@ Rice_Packages=(
   
   # bar
   waybar
+  
+  # application launchers
+  rofi
+  rofi-calc
+  rofi-emoji
 )
   
 Aur_Packages=(
@@ -168,6 +173,9 @@ Aur_Rice_Packages=(
   
   # font
   ttf-tabler-icons
+  
+  #logout
+  wlogout
 )
   
 Aur_Gaming_Packages=(
