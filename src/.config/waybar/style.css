@@ -86,7 +86,9 @@ window#waybar {
 #workspaces button:not(.active):not(.empty) {
     background: #fab387;
     color: #1e1e2e;
+    padding: 0 4px;
     opacity: 0.7;
+    border-radius: 25px;
 }
 
 #workspaces button.empty:not(.active) {
