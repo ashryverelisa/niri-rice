@@ -99,21 +99,3 @@ window#waybar {
     background: #f38ba8;
     color: #1e1e2e;
 }
-
-/* Battery */
-#battery {
-    padding: 0 10px;
-    color: #cdd6f4;
-}
-
-#battery.charging {
-    color: #2dcc36;
-}
-
-#battery.warning:not(.charging) {
-    color: #e6e600;
-}
-
-#battery.critical:not(.charging) {
-    color: #cc3436;
-}

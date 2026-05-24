@@ -14,9 +14,6 @@
   "modules-center": [
     "niri/workspaces"
   ],
-  "modules-right": [
-    "battery"
-  ],
   "include": [
     "~/.config/waybar/modules.jsonc"
   ]
