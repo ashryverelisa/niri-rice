@@ -1,22 +1,4 @@
 {
-  "custom/cpu": {
-    "exec": "~/.config/waybar/scripts/usage-bar.sh cpu",
-    "interval": 2,
-    "return-type": "json",
-    "format": "勺 <span color='#cba6f7' size='small'>{}</span>"
-  },
-  "custom/temperature": {
-    "exec": "~/.config/waybar/scripts/usage-bar.sh temp",
-    "interval": 2,
-    "return-type": "json",
-    "format": "  <span color='#cba6f7' size='small'>{}</span>"
-  },
-  "custom/memory": {
-    "exec": "~/.config/waybar/scripts/usage-bar.sh mem",
-    "interval": 5,
-    "return-type": "json",
-    "format": "  <span color='#cba6f7' size='small'>{}</span>"
-  },
   "clock": {
     "format": "{:%H:%M %a, %b %d}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"

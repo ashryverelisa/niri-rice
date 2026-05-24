@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "Adwaita Sans", "tabler-icons", serif;
+    font-family: "Adwaita Sans", serif;
     font-size: 12px;
     font-weight: 500;
     min-height: 0;
@@ -16,35 +16,8 @@ window#waybar {
 
 #clock {
     background: transparent;
-    padding: 0 6px;
-}
-
-#custom-cpu,
-#custom-memory,
-#custom-temperature {
-    background: transparent;
-    font-family: "tabler-icons", "Adwaita Sans", monospace;
-    font-size: 15px;
-    color: #cdd6f4;
-    letter-spacing: 1px;
-}
-
-#custom-cpu.warning,
-#custom-memory.warning,
-#custom-temperature.warning {
-    color: #fab387;
-}
-
-#custom-cpu.critical,
-#custom-memory.critical,
-#custom-temperature.critical {
-    color: #f38ba8;
 }
 
 #window image {
     margin-right: 6px;
-}
-
-#window {
-    margin-left: 10px;
 }
