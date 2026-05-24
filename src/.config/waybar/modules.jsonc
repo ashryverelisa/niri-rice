@@ -27,5 +27,17 @@
     "separate-outputs": true,
     "icon": true,
     "icon-size": 16
+  },
+  "battery": {
+    "interval": 10,
+    "states": {
+      "warning": 20,
+      "critical": 10
+    },
+    "format": "{icon}",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰁹"],
+    "format-full": "{icon}",
+    "format-charging": "󰂄",
+    "tooltip": false
   }
 }
