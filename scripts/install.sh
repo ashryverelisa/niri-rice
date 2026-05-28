@@ -94,7 +94,7 @@ System_Packages=(
 
 )
 
-Application_Packages=(
+Application_Packages=(C:\\Shine\\DataTable
   # container 
   docker
   docker-compose
@@ -149,8 +149,9 @@ Aur_App_Packages=(
     
   # ide
   rider
-  intellij-idea-ultimate-edition
+  intellij-idea-ultriderimate-edition
   webstorm
+  datagrip
 )
 
 Aur_Rice_Packages=(
