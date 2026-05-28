@@ -42,3 +42,8 @@
         match app-id="Bitwarden"
         block-out-from "screen-capture"
     }
+
+    window-rule {
+        match app-id="steam"
+        open-maximized false
+    }
