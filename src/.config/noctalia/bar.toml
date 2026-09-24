@@ -1,0 +1,54 @@
+[bar]
+order = ["main"]
+
+[bar.default]
+position = "top"
+enabled = true
+auto_hide = false
+smart_auto_hide = false
+show_on_workspace_switch = true
+reserve_space = true
+layer = "top"
+thickness = 23
+background_opacity = 0.75
+border = "outline"
+border_width = 0.0
+shadow = true
+contact_shadow = false
+panel_overlap = 1
+radius = 12
+radius_top_left = 12
+radius_top_right = 12
+radius_bottom_left = 12
+radius_bottom_right = 12
+concave_edge_corners = false
+margin_ends = 300
+margin_edge = 0
+margin_opposite_edge = 0
+padding = 14
+widget_spacing = 6
+hover_highlight = true
+scale = 1.0
+font_scale = 1.0
+font_weight = 500
+font_family = ""
+capsule = false
+capsule_fill = "surface_variant"
+capsule_thickness = 0.76
+capsule_radius = 8.0
+capsule_opacity = 1.0
+
+start = [ "launcher", "wallpaper", "cpu", "ram" ]
+center = ["workspaces"]
+end = [ "media", "tray", "notifications", "clipboard", "group:g1", "battery", "clock", "control-center", "session" ]
+
+[[bar.default.capsule_group]]
+accordion = true
+accordion_direction = "end"
+enabled = true
+fill = "surface_variant"
+id = "g1"
+members = [ "network", "bluetooth", "volume", "brightness" ]
+opacity = 1.0
+padding = 6.0
+radius = 8.0
