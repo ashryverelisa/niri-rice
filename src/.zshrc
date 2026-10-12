@@ -64,6 +64,8 @@ zinit light zsh-users/zsh-autosuggestions
 zinit snippet OMZP::web-search
 zinit snippet OMZP::docker-compose
 zinit snippet OMZP::docker
+zinit snippet OMZP::dotnet
+zinit snippet OMZP::git
 
 # Load completions
 autoload -Uz compinit && compinit

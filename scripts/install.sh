@@ -148,10 +148,7 @@ Aur_App_Packages=(
   vesktop
     
   # ide
-  rider
-  intellij-idea-ultriderimate-edition
-  webstorm
-  datagrip
+  jetbrains-toolbox
 )
 
 Aur_Rice_Packages=(
